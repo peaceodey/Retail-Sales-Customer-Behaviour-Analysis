@@ -5,7 +5,7 @@
 
 ##  Project Overview
 
-RetailMartt is an e-commerce company operating across multiple locations in Nigeria. The company sells everyday consumer products online and depends on efficient order processing and reliable payments to drive revenue.
+RetailMartt is an e-commerce company operating across multiple locations. The company sells everyday consumer products online and depends on efficient order processing and reliable payments to drive revenue.
 
 This SQL case study analyzes:
 
@@ -140,7 +140,6 @@ ORDER BY total_sales DESC;
 **Insight:**
 Cooking Gas generated **₦19,192**, making it the top-selling product and a key revenue driver.
 
----
 
 ### 2️⃣ Which product categories perform best in sales?
 
@@ -155,9 +154,8 @@ ORDER BY total_sales DESC;
 ```
 
 **Insight:**
-Groceries is the highest revenue-generating category, indicating that essential daily-consumption products drive the majority of revenue.
+Groceries is the highest-revenue-generating category, indicating that essential daily-use products drive the majority of revenue.
 
----
 
 ### 3️⃣ How many orders are completed, cancelled, or pending?
 
@@ -179,7 +177,6 @@ ORDER BY total_orders DESC;
 **Insight:**
 Only **32% of orders are successfully completed**, meaning nearly **68% of orders drop off** before revenue is realized.
 
----
 
 ### 4️⃣ Do failed payments affect order completion?
 
@@ -199,7 +196,6 @@ Orders with failed payments are significantly more likely to be cancelled or rem
 
 This confirms that **payment failure is a major operational bottleneck** affecting revenue realization.
 
----
 
 ### 5️⃣ Which customers place the most orders?
 
@@ -217,7 +213,6 @@ ORDER BY total_orders DESC;
 **Insight:**
 Anna Ojo placed **9 orders**, making her the most active customer and a high-value repeat buyer.
 
----
 
 ### 6️⃣ Which locations generate the most sales?
 
@@ -260,7 +255,7 @@ This signals serious friction in the checkout/payment process.
 
 ### 📌 Customer & Location Concentration
 
-* Top customer placed 9 orders.
+* The top customer placed 9 orders.
 * Lagos alone generated ₦87,309 in completed revenue.
 * Sales are geographically concentrated.
 
@@ -273,14 +268,14 @@ This signals serious friction in the checkout/payment process.
 * Add automatic retry logic
 * Offer alternative payment methods
 
-**Expected Impact:** Increasing completion rate by even 10% could significantly lift revenue.
+**Expected Impact:** Even a 10% increase in completion rate could significantly lift revenue.
 
 
-### 2️⃣ Optimize High-Demand Products
+### 2️⃣ Optimise High-Demand Products
 
 * Maintain steady inventory for grocery items
 * Ensure competitive pricing for Cooking Gas
-* Bundle essential products for higher basket value
+* Bundle essential products for a higher basket value
 
 
 ### 3️⃣ Strengthen Customer Retention
