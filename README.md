@@ -35,7 +35,7 @@ This analysis provides insight into revenue concentration, customer value, and o
 
 ##  Data Source
 
-**Source:** RetailMartt Database
+**Source:** RetailMartt Dataset 
 
 
 ## Data Cleaning & Transformation
