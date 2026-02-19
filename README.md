@@ -7,9 +7,9 @@
 
 RetailMartt is an e-commerce company operating across multiple locations. The company sells everyday consumer products online and depends on efficient order processing and reliable payments to drive revenue.
 
-This SQL case study analyzes:
+This SQL case study analyses:
 
-* Customer behavior
+* Customer behaviour
 * Sales performance
 * Order outcomes
 * Payment reliability
@@ -296,7 +296,7 @@ This signals serious friction in the checkout/payment process.
 
 This SQL case study provided a structured, data-driven evaluation of RetailMartt’s:
 * Revenue performance
-* Customer behavior
+* Customer behaviour
 * Operational challenges
 
 The analysis revealed:
@@ -313,7 +313,7 @@ These insights can guide improvements in payment systems, product strategy, and 
 * SQL (JOINs, GROUP BY, Aggregations, Filtering, Sorting)
 * Business problem framing
 * Revenue analysis
-* Customer behavior analysis
+* Customer behaviour analysis
 * Insight generation & strategic recommendations
 * Portfolio documentation
 
